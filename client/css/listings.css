@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+.listing{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 900px;
+    background-color: rgb(202, 202, 202);
+    display: flex; 
+    margin-left: 80px;
+    padding-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+form{
+    display: flex;
+    position: relative;
+    width: 850px;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+form:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+form .image{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    background-image: url(/RENT/client/assets/home/bac1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form .details {
+    display: flex;
+    flex-direction: column; 
+    padding: 50px;
+    gap: 10px; 
+}
+
+.more {
+    display: flex;
+    gap: 10px;
+}
